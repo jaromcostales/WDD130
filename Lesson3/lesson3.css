@@ -1,0 +1,23 @@
+.bluetext {
+    color: aqua;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+span {
+    color:blueviolet
+}
+
+.awesomebutton {
+    background-color:  brown;
+    border-radius: 10px;
+    padding: 50px;
+}
+header img {
+    padding: 20px;
+}
+header p {
+    background-color: bisque;
+}

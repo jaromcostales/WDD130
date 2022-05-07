@@ -1,0 +1,51 @@
+/*starting list styles */
+
+
+.awesomedl {
+    background-color:;
+}
+
+.awesomedl dt {
+    font-weight: 900;
+}
+
+.awesomedl dd {
+    font-style: italic;
+}
+
+.awesomedl dt,dd {
+    color: brown;
+}
+.listcontainer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px; color: black;
+}
+.listcontainer
+    list-style-type: none;
+
+.listcontainer ul li {
+    float: left;
+}
+
+/* end list styles */
+
+/* starting table styles */
+
+.awesometable {
+    border-collapse: collapse;
+    width: auto;
+}
+
+.awesometable td, th {
+    border: 1px solid; 
+}
+
+.awesometable th. td {
+    padding: 50px;
+}
+
+.awesometable tr :nth-child(even) {
+    background-color: green;
+}

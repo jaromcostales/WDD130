@@ -1,0 +1,77 @@
+body {
+    background-color: #FCA6C9;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1:hover {
+    color: black;
+}
+
+.coolfont {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+
+.white {
+    color: white;
+}
+
+img {
+    width: 150px;
+}
+
+.quotation {
+    margin: 10px 50px;
+    font-size: 35px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+
+.quotation::before {
+    content: ❝;
+    margin-right:;
+}
+
+.quotation::after {
+    content: ❞;
+    margin
+}
+
+
+body {
+    text-align: center;
+}
+
+.pagecontent {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 750px;
+
+}
+
+.pagecontent ol {
+    text-align: left;
+}
+
+.pagecontent ol li {
+    padding-top: px;
+    line-height: 30px;
+}
+
+footer {
+    margin: 0 50px;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+footer p {
+    font-size: 80%;
+    margin: 3px;
+}

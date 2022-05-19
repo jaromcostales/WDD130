@@ -1,0 +1,41 @@
+.red {
+    background-color: red;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px;
+    padding-top: 50px;
+    line-height: 100px;
+}
+.blue {
+    background-color: blue;
+    padding: 50px ;
+    margin: 0 180px;
+    line-height: 100px;
+}
+.green {
+    background-color: green;
+    padding: 75px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+body {
+    text-align: center;
+    border: 0;
+}
+
+.box1, .box2 {
+    background-color: bisque;
+}
+div {
+    width: 100px 100px;
+    padding: 100px 100px;
+  }
+  #background {
+    height: 15px;
+}
+  .box1 {
+    float:left; 
+  }
+  .box2 {
+    float: right;
+  }

@@ -131,7 +131,7 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-
+  height: 400px;
   display: grid;
 
 }
@@ -141,14 +141,14 @@
   background-color: red; 
 }
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
-  float: none;
+  float: left;
 } 
 .yellow5 {
   background-color: gold;
-  float: left;
+  float: none;
 } 
 .blue5 {
   width: 100%; 

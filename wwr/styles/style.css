@@ -35,6 +35,7 @@
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    background-color: transparent;
 }
 
 #content {
@@ -118,7 +119,7 @@ header {
     background-color: lightblue;
 }
 #background {
-    background-color: brown;
+    background-color: #6f7364 ;
 }
 .msg {
     background-color: grey;
@@ -126,7 +127,7 @@ header {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #7c7e77;
 }
 footer {
     background-color: grey;
@@ -144,8 +145,9 @@ nav a:hover {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 50px auto;
+    margin: 20px auto;
     width: 60%;
+    size: large;
 }
 .card-img {
     border: 10px solid black;

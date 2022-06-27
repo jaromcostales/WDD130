@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Shadows+Into+Light&family=Tapestry&display=swap');
+
+.home-title {
+    font-family: "Tapestry";
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 80px;
+}
+#content {
+    max-width: 1600px;
+    margin: 20px 20px;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    display: block ;
+    justify-content: space-around;
+    font-size: medium;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#photos {
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 10px;
+}
+.Free {
+margin-left: 50px;
+}
+.column {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-content: center;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h1 {
+    text-align: center;
+    color: white; 
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+body {
+  
+}
+
+header {
+    background-color: #494949b3;
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: grey;
+    padding-top: 5px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    padding:  14px;
+  }
+
+footer a {
+    background-color: grey;
+    color: white;
+}
+footer a:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+#hero-img {
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+           
